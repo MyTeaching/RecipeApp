@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/newMealTitle"
+            style="@style/MealTitle"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/new_meal_name"
+            style="@style/MealDescription"/>
+
+        <EditText
+            android:id="@+id/et_new_meal_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/new_meal_description"
+            style="@style/MealDescription"/>
+
+        <EditText
+            android:id="@+id/et_new_meal_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enter a list of ingredients"
+            style="@style/MealDescription"/>
+
+        <EditText
+            android:id="@+id/et_new_meal_ingredients"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enter a link"
+            style="@style/MealDescription"/>
+
+        <EditText
+            android:id="@+id/et_new_meal_link"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/meal_image_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Take a picture" />
+
+        <ImageView
+            android:id="@+id/iv_new_meal_image"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/img_sukiyaki" />
+
+        <Button
+            android:id="@+id/submit_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/submit_text" />
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,83 @@
+<resources>
+    <string name="app_name">Foodie App</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <string-array name="meal_titles">
+        <item>Anago</item>
+        <item>Anko</item>
+        <item>Karrage</item>
+        <item>Katsudon</item>
+        <item>Melonpan</item>
+        <item>Mochi</item>
+        <item>Omurice</item>
+        <item>Onigiri</item>
+        <item>Sukiyaki</item>
+    </string-array>
+
+    <string-array name="meal_descriptions">
+        <item>This is Anago</item>
+        <item>This is Anko</item>
+        <item>This is Karrage</item>
+        <item>This is Katsudon</item>
+        <item>This is Melonpan</item>
+        <item>This is Mochi</item>
+        <item>This is Omurice</item>
+        <item>This is Onigiri</item>
+        <item>This is Sukiyaki</item>
+    </string-array>
+
+    <string-array name="meal_images">
+        <item>@drawable/img_anago</item>
+        <item>@drawable/img_anko</item>
+        <item>@drawable/img_karrage</item>
+        <item>@drawable/img_katsudon</item>
+        <item>@drawable/img_melonpan</item>
+        <item>@drawable/img_mochi</item>
+        <item>@drawable/img_omurice</item>
+        <item>@drawable/img_onigiri</item>
+        <item>@drawable/img_sukiyaki</item>
+    </string-array>
+
+    <string-array name="meal_ingredients">
+        <item>Soy Sauce, Eel, Sake, Sugar</item>
+        <item>Azuki Beans</item>
+        <item>Chicken, Flour</item>
+        <item>Panko, Soy Sauce, Sugar, Eggs, Pork Chops</item>
+        <item>Bread Flour, Cake Flours, Butter, Eggs, </item>
+        <item>Rice, Anko, Flour, Sugar</item>
+        <item>Chicken, Eggs, Vegetables, Rice</item>
+        <item>Rice, Seaweed, Salmon, Pickled Plum</item>
+        <item>Udon Noddles, Cabbage, Mushrooms, Beef</item>
+    </string-array>
+
+    <string-array name="meal_links">
+        <item>https://chefswonderland.com/feature-article/anago-recipe-sushi-tempura-and-more-learn-edomae-techniques-at-tokyo-sushi-academy/</item>
+        <item>https://www.justonecookbook.com/how-to-make-anko-red-bean-paste/</item>
+        <item>https://www.justonecookbook.com/karaage/</item>
+        <item>https://www.thespruceeats.com/katsudon-2031259</item>
+        <item>https://www.justonecookbook.com/melon-pan/</item>
+        <item>https://www.justonecookbook.com/how-to-make-mochi-with-a-stand-mixer/</item>
+        <item>https://www.justonecookbook.com/omurice-japanese-omelette-rice/</item>
+        <item>https://www.justonecookbook.com/onigiri-rice-balls/</item>
+        <item>https://www.justonecookbook.com/sukiyaki/</item>
+    </string-array>
+    <string name="title_activity_add_item">AddItemActivity</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
+    <string name="newMealTitle">Create a new meal</string>
+    <string name="new_meal_name">Enter name</string>
+    <string name="new_meal_description">Enter description</string>
+    <string name="submit_text">Submit</string>
+
+</resources>
