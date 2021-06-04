@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">Foodie App</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <string-array name="meal_titles">
+        <item>あなご</item>
+        <item>あんこ</item>
+        <item>から揚げ</item>
+        <item>かつどん</item>
+        <item>メロンパン</item>
+        <item>餅</item>
+        <item>オムライス</item>
+        <item>おにぎり</item>
+        <item>すき焼き</item>
+    </string-array>
+
+    <string-array name="meal_descriptions">
+        <item>これはあなご</item>
+        <item>これはあんこ</item>
+        <item>これはから揚げ</item>
+        <item>これはかつどん</item>
+        <item>これはメロンパン</item>
+        <item>これは餅</item>
+        <item>これはオムライス</item>
+        <item>これはおにぎり</item>
+        <item>これはすき焼き</item>
+    </string-array>
+
+    <string-array name="meal_images">
+        <item>@drawable/img_anago</item>
+        <item>@drawable/img_anko</item>
+        <item>@drawable/img_karrage</item>
+        <item>@drawable/img_katsudon</item>
+        <item>@drawable/img_melonpan</item>
+        <item>@drawable/img_mochi</item>
+        <item>@drawable/img_omurice</item>
+        <item>@drawable/img_onigiri</item>
+        <item>@drawable/img_sukiyaki</item>
+    </string-array>
+
+    <string-array name="meal_ingredients">
+        <item>Soy Sauce, Eel, Sake, Sugar</item>
+        <item>Azuki Beans</item>
+        <item>Chicken, Flour</item>
+        <item>Panko, Soy Sauce, Sugar, Eggs, Pork Chops</item>
+        <item>Bread Flour, Cake Flours, Butter, Eggs, </item>
+        <item>Rice, Anko, Flour, Sugar</item>
+        <item>Chicken, Eggs, Vegetables, Rice</item>
+        <item>Rice, Seaweed, Salmon, Pickled Plum</item>
+        <item>Udon Noddles, Cabbage, Mushrooms, Beef</item>
+    </string-array>
+
+    <string-array name="meal_links">
+        <item>https://chefswonderland.com/feature-article/anago-recipe-sushi-tempura-and-more-learn-edomae-techniques-at-tokyo-sushi-academy/</item>
+        <item>https://www.justonecookbook.com/how-to-make-anko-red-bean-paste/</item>
+        <item>https://www.justonecookbook.com/karaage/</item>
+        <item>https://www.thespruceeats.com/katsudon-2031259</item>
+        <item>https://www.justonecookbook.com/melon-pan/</item>
+        <item>https://www.justonecookbook.com/how-to-make-mochi-with-a-stand-mixer/</item>
+        <item>https://www.justonecookbook.com/omurice-japanese-omelette-rice/</item>
+        <item>https://www.justonecookbook.com/onigiri-rice-balls/</item>
+        <item>https://www.justonecookbook.com/sukiyaki/</item>
+    </string-array>
+
+</resources>
